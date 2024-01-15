@@ -1,6 +1,8 @@
 const { LiveChat } = require("youtube-chat");
 
-const liveChat = new LiveChat({ liveId: "jfKfPfyJRdk" });
+const liveId = "jfKfPfyJRdk";
+
+const liveChat = new LiveChat({ liveId });
 
 // Emit at start of observation chat.
 // liveId: string
