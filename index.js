@@ -14,6 +14,7 @@ liveChat.on("start", (liveId) => {
 liveChat.on("end", (reason) => {
   /* Your code here! */
   console.log("----------------- Live Ended ------------------");
+  liveChat.stop();
 });
 
 // Emit at receive chat.
