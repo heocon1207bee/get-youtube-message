@@ -28,7 +28,7 @@ liveChat.on("chat", (chatItem) => {
     chatItem.message.forEach((item) => {
       if (item.text) {
         chatMessage += item.text;
-      } else if (chatMessage.emojiText) {
+      } else if (item.emojiText) {
         chatMessage += item.emojiText;
       }
     });
